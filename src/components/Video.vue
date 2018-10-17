@@ -5,7 +5,7 @@
 
 <script>
 export default {
-  name: 'home',
+  name: 'video',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
