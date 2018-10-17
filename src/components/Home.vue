@@ -20,7 +20,7 @@ export default {
       let myHome = this.$echarts.init(document.getElementById('myHome'))
       // 绘制图表
       myHome.setOption({
-        title: { text: '在Vue中使用echarts' },
+        title: { text: '在Home中使用echarts' },
         tooltip: {},
         xAxis: {
           data: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
