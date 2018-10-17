@@ -1,5 +1,5 @@
 <template>
-    <div id="myHome" :style="{width: '300px', height: '300px'}">
+    <div id="myHome" :style="{width: '600px', height: '400px'}">
     </div>
 </template>
 
