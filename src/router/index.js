@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import Hmoe from '@/components/Hmoe'
+import Home from '@/components/Home'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
       component: HelloWorld
     }
     {
-      path: '/Hmoe',
-      name: 'Hmoe',
-      component: Hmoe
+      path: '/Home',
+      name: 'Home',
+      component: Home
 }
   ]
 })
