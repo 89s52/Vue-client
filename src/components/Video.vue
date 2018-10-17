@@ -1,5 +1,5 @@
 <template>
-    <div id="myHome" :style="{width: '800px', height: '600px'}">
+    <div id="myVideo" :style="{width: '800px', height: '600px'}">
     </div>
 </template>
 
@@ -17,9 +17,9 @@ export default {
   methods: {
     drawLine () {
       // 基于准备好的dom，初始化echarts实例
-      let myHome = this.$echarts.init(document.getElementById('myHome'))
+      let myVideo = this.$echarts.init(document.getElementById('myVideo'))
       // 绘制图表
-      myHome.setOption({
+      myVideo.setOption({
         title: { text: '在Home中使用echarts' },
         tooltip: {},
         xAxis: {
