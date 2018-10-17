@@ -20,7 +20,7 @@ export default {
       let myVideo = this.$echarts.init(document.getElementById('myVideo'))
       // 绘制图表
       myVideo.setOption({
-        title: { text: '在Home中使用echarts' },
+        title: { text: '在Video中使用echarts' },
         tooltip: {},
         xAxis: {
           data: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
