@@ -10,6 +10,7 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+<<<<<<< HEAD
     proxyTable: {},
     proxyTable: {
        '/goods/*': {
@@ -18,6 +19,12 @@ module.exports = {
        '/users/*': {
            target: 'http://localhost:3000'
        }
+=======
+    proxyTable: {
+      'http://47.254.80.41:3000/user/test':{
+          target:'http://0.0.0.0:1234'
+      }
+>>>>>>> 2e595f9738d02502390fd67f6a9bc5f036a78854
     },
 
     // Various Dev Server settings
