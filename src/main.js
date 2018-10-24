@@ -20,7 +20,7 @@ new Vue({
   router,
   mounted(){
 
-      axios.get("/users").then(res=> {
+      axios.get("http://47.254.80.41:3000/user/test").then(res=> {
         var res = res.data;
         if (res.status == "0") {
           this.usersList = res result;
