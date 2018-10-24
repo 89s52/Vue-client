@@ -14,10 +14,10 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
-  mounted() {
+  mounted () {
     axios.get('http://47.254.80.41:3000/user/test').then(res => {
-      var res = res.data
-        if (res.status == '0') {
+      var resp = res.data
+      if (resp.status === '0') {
         this.usersList = []
       } else {
         this.usersList = []
