@@ -11,10 +11,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/users':{
-          target:'http://0.0.0.0:3000'
-      },
-      '/users/*':{
+      'http://47.254.80.41:3000/user/test':{
           target:'http://0.0.0.0:3000'
       }
     },
