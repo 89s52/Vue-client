@@ -27,8 +27,7 @@ new Vue({
         }else{
           this.usersList = [];
           }
-        }
-      });
+       });
     },
   template: '<App/>',
   //render: h => h(App),
