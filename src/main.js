@@ -5,9 +5,6 @@ import App from './App'
 import router from './router'
 import echarts from 'echarts'
 import axios from 'axios'
-import Vuex from 'vuex'
-
-Vue.use(Vuex);
 
 Vue.prototype.$echarts = echarts
 
@@ -16,7 +13,6 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  store,
   router,
   mounted(){
 
