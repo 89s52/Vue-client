@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>client</title>
   </head>
+  
+  <script> 
+       window.config = { 
+         Host: { 
+           production: './', 
+           development: 'http://10.10.40.66:8080/', 
+           test: 'http://10.10.40.66:8080/' 
+         }, 
+         userHost: { 
+           production: 'http://10.10.40.106:9090', 
+           development: 'http://10.10.40.106:9090', 
+           test: 'http://10.10.40.106:9090' 
+         } 
+       } 
+   </script>
+
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
