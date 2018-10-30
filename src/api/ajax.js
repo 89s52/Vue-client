@@ -6,11 +6,10 @@ import Vue from 'vue'
 
 const ajaxUrl = 
     process.env.NODE_ENV === 'development' 
-        ? window.config.Host.development // 开发环境中的后端地址 
-        : process.env.NODE_ENV === 'production' 
-
-        ? window.config.Host.production // 生产环境中的后端地址 
-        : window.config.Host.test // 测试环境的后端地址 
+    ? window.config.Host.development // 开发环境中的后端地址 
+    : process.env.NODE_ENV === 'production' 
+    ? window.config.Host.production // 生产环境中的后端地址 
+    : window.config.Host.test // 测试环境的后端地址 
 
 export let ajax = axios.create({ 
     baseURL: ajaxUrl, 
